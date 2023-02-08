@@ -1,0 +1,173 @@
+* {
+    margin: 1px;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(211, 225, 227), white);
+    background-size: cover;
+    height: 95vh;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.first,.second {
+    display: inline-block;
+    width: 45vh;
+    margin: 40px;
+    margin-top: 50px;
+}
+.second{
+    background-color: white;
+    height: 75vh;
+}
+
+.upHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftItem {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.middleItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+}
+
+.rightItem {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerImage {
+    height: 15px;
+}
+
+.header {
+    background: white;
+}
+
+.downHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-section{
+    background-color: rgb(231, 239, 240);
+    height: 70vh;
+}
+.title {
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.button{
+    background-color: white;
+    border-radius:  50% ;
+    font-size: 18px;
+    padding: 10px 15px;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 0 20px;
+}
+#button1{
+    background-color: gray;
+}
+.profile>pre{
+    font-size: 17px;
+    color:white;
+    margin: 0 20px;
+}
+.profile>p{
+    font-size: 15px;
+    color:rgb(221, 221, 221);
+    margin: 0 20px;
+}
+.profiles{
+    height: 90%;
+    margin: auto;
+}
+.profile-2{
+    height: 35%;
+}
+.profile{
+    display: inline-block;
+    width: 45%;
+    margin: 5px;
+    height: 90%;
+    position: relative;
+    border-radius: 20px;
+}
+.prof-img{
+    width: 50px;
+    margin: 10px;
+}
+progress{
+    position: absolute;
+    bottom: 10px;
+}
+.menu-img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 25px;
+}
+.second>img{
+    width: 100%;
+    height: 30%;
+}
+
+.second > .blocks{
+    width: 85%;
+    height: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+.second .block{
+    height: 23%;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 8%;
+    padding: 20px;
+    position: relative;
+}
+
+.second .images{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.second>.blocks img{
+    width: 12%;
+    margin-left: -20px;
+}
+
+.block >img{
+    width: 8%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.block p{
+    font-size: 24px;
+}
+
+.block h2,p{
+    color: white;
+}

@@ -6,211 +6,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TASK 1</title>
-    <style>
-        * {
-            margin: 1px;
-        }
-        
-        body {
-            background-image: linear-gradient(to bottom, rgb(211, 225, 227), white);
-            background-size: cover;
-            height: 95vh;
-            background-repeat: no-repeat;
-            display: flex;
-            
-            justify-content: center;
-        }
-        
-        .first {
-            width: 60vh;
-            margin-top: 10%;
-        }
-
-        .upHeader {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .leftItem {
-            display: flex;
-            align-items: center;
-            justify-content: left;
-        }
-
-        .middleItem {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .side-by-side {
-            display: flex;
-            align-items: center;
-        }
-
-        .rightItem {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-        }
-
-        .headerImage {
-            height: 15px;
-        }
-
-        .header {
-            background: white;
-        }
-
-        .downHeader {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .body-section{
-            background-color: rgb(231, 239, 240);
-            height: 70vh;
-        }
-        .title {
-            align-items: center;
-        }
-        .buttons{
-            display: flex;
-            flex-direction: row;
-        }
-        .button{
-            background-color: white;
-            border-radius: 50%;
-            font-size: 18px;
-            padding: 10px 15px;
-            justify-content: center;
-            vertical-align: middle;
-            align-items: center;
-            text-align: center;
-            width: 30%;
-            margin: 0 20px;
-        }
-        #button1{
-            background-color: gray;
-        }
-        .profiles{
-            display: flex;
-            flex-wrap: wrap;
-            margin: auto;
-        }
-        .profile{
-            position: relative;
-            width: 48%;
-            margin: 5px;
-            height: 200px;
-            border-radius: 20px;
-        }
-        .prof-img{
-            width: 50px;
-            margin: 10px;
-
-        }
-        .menu-img{
-            position: absolute;
-            right: 10px;
-            top: 10px;
-            height: 25px;
-        }
-        
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-        <div class="first">
+    <div class="first">
 
-            <div class="header">
-                <div class="upHeader">
-                    <div class="side-by-side">
-                        <img src="Images/dots.png" alt="set" class="headerImage leftItem">
-                        <span style="font-size: 14px;" class="leftItem">Sketch</span>
-                        <img src="Images/wifi.png" alt="set" class="headerImage leftItem">
-                    </div>
-                    <span style="font-size: 14px;" class="middleItem">9:41 AM</span>
-                    <div class="side-by-side">
-                        <span class="rightItem">100%</span>
-                        <img src="Images/full-battery.png" alt="set" class="headerImage rightItem">
-                    </div>
+        <div class="header">
+            <div class="upHeader">
+                <div class="side-by-side">
+                    <img src="Images/dots.png" alt="set" class="headerImage leftItem">
+                    <span style="font-size: 14px;" class="leftItem">Sketch</span>
+                    <img src="Images/wifi.png" alt="set" class="headerImage leftItem">
                 </div>
-                <div class="downHeader">
-                    <h2 class="title">Courses</h2>
+                <span style="font-size: 14px;" class="middleItem">9:41 AM</span>
+                <div class="side-by-side">
+                    <span class="rightItem">100%</span>
+                    <img src="Images/full-battery.png" alt="set" class="headerImage rightItem">
                 </div>
             </div>
-
-            <div class="body-section">
-                <div class="buttons">
-                    <div class="button" id="button1">All</div>
-                    <div class="button">Ongoing</div>
-                    <div class="button">Completed</div>
-                </div>
-                <div class="profiles">
-                    <div class="profile" style="background-color:rgb(165, 165, 218);">
-                    <img src="Images/profile.png" class="prof-img">
-                    <img src="Images/menu.png" class="menu-img">
-                    <pre style="font-size: 17px;color:white;margin: 0 20px;">
-Media iQ
-Digital Ltd
-                    </pre>
-                    <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                    <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                    <div class="profile" style="background-color:rgb(170, 192, 91);" >
-                        <img src="Images/profile.png" class="prof-img">
-                        <img src="Images/menu.png" class="menu-img">
-                        <pre style="font-size: 17px;color:white;margin: 0 20px;">
-    Media iQ
-    Digital Ltd
-                        </pre>
-                        <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                    <div class="profile" style="background-color:rgb(187, 187, 228);">
-                        <img src="Images/profile.png" class="prof-img">
-                        <img src="Images/menu.png" class="menu-img">
-                        <pre style="font-size: 17px;color:white;margin: 0 20px;">
-    Media iQ
-    Digital Ltd
-                        </pre>
-                        <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                    <div class="profile" style="background-color:rgb(119, 119, 218);">
-                        <img src="Images/profile.png" class="prof-img">
-                        <img src="Images/menu.png" class="menu-img">
-                        <pre style="font-size: 17px;color:white;margin: 0 20px;">
-    Media iQ
-    Digital Ltd
-                        </pre>
-                        <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                    <div class="profile" style="background-color:rgb(131, 138, 70);">
-                        <img src="Images/profile.png" class="prof-img">
-                        <img src="Images/menu.png" class="menu-img">
-                        <pre style="font-size: 17px;color:white;margin: 0 20px;">
-    Media iQ
-    Digital Ltd
-                        </pre>
-                        <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                    <div class="profile" style="background-color:rgb(221, 173, 201);">
-                        <img src="Images/profile.png" class="prof-img">
-                        <img src="Images/menu.png" class="menu-img">
-                        <pre style="font-size: 17px;color:white;margin: 0 20px;">
-    Media iQ
-    Digital Ltd
-                        </pre>
-                        <p style="font-size: 15px;color:rgb(221, 221, 221);margin: 0 20px;">Senior UI Designer</p>
-                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
-                    </div>
-                </div>
+            <div class="downHeader">
+                <h2 class="title">Courses</h2>
             </div>
         </div>
+
+        <div class="body-section">
+            <div class="buttons">
+                <div class="button" id="button1">All</div>
+                <div class="button">Ongoing</div>
+                <div class="button">Completed</div>
+            </div>
+            <div class="profiles">
+                <div class="profile-2">
+
+                    <div class="profile" style="background-color:rgb(165, 165, 218);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                    <div class="profile" style="background-color:rgb(170, 192, 91);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                </div>
+
+                <div class="profile-2">
+
+                    <div class="profile" style="background-color:rgb(121, 221, 214);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                    <div class="profile" style="background-color:rgb(146, 98, 206);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                </div>
+
+                <div class="profile-2">
+
+                    <div class="profile" style="background-color:rgb(247, 212, 13);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                    <div class="profile" style="background-color:rgb(215, 105, 210);">
+                        <img src="Images/profile.png" class="prof-img">
+                        <img src="Images/menu.png" class="menu-img">
+                        <pre>
+Media iQ
+Digital Ltd
+                            </pre>
+                        <p>Senior UI Designer</p>
+                        <progress value="80" max="100" style="margin:0 20px ;"></progress>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="second">
+        <img src="Images/image1.jpg">
+        <div class="blocks">
+            <div class="block"
+            style="background-color: rgb(74, 177, 255);">
+                <h2>7:30 AM</h2>
+                <p>Product Designer meeting</p>
+                <img src="Images/menu.png" alt="">
+                <div class="images">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/6+.png"
+                    style="background-color: white;border-radius: 50%;" alt="">
+                </div>
+            </div>
+            <div class="block"
+            style="background-color: rgb(205, 48, 252);">
+                <h2>9:30 AM</h2>
+                <p>Load meeting</p>
+                <img src="Images/menu.png" alt="">
+                <div class="images">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/6+.png"
+                    style="background-color: white;border-radius: 50%;" alt="">
+                </div>
+            </div>
+            
+            <div class="block"
+            style="background-color: rgb(231, 192, 36);">
+                <h2>16:30 PM</h2>
+                <p>Design Team Scrum</p>
+                <img src="Images/menu.png" alt="">
+                <div class="images">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/profile.png" alt="">
+                    <img src="Images/6+.png"
+                    style="background-color: white;border-radius: 50%;" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
